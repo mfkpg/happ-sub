@@ -1,0 +1,103 @@
+#profile-title: base64:0KDQsNCx0L7RgtCw
+#profile-update-interval: 1
+#custom-tunnel-config: {"dns":{"servers":[{"address":"8.8.8.8","detour":"direct","tag":"dns-proxy"}]},"inbounds":[{"address":["172.18.0.1/30"],"auto_route":true,"interface_name":"happ-tun","mtu":1500,"stack":"mixed","strict_route":false,"tag":"tun-in","type":"tun"}],"log":{"level":"info","timestamp":true},"outbounds":[{"domain_resolver":{"server":"dns-proxy","strategy":"prefer_ipv4"},"server":"127.0.0.1","server_port":10808,"tag":"proxy","type":"socks","udp_fragment":true},{"domain_resolver":{"server":"dns-proxy","strategy":"prefer_ipv4"},"tag":"direct","type":"direct"}],"route":{"auto_detect_interface":true,"final":"direct","rules":[{"outbound":"direct","process_name":["xray.exe","sing-box.exe","antifilter.exe","vpnagent.exe","vpnui.exe","xray","sing-box","antifilter"]},{"outbound":"proxy","process_path":["C:\\Program Files\\WindowsApps\\Claude_1.15200.0.0_x64__pzs8sxrjxfjjc\\app\\resources\\cowork-svc.exe","C:\\Program Files\\WindowsApps\\Claude_1.15200.0.0_x64__pzs8sxrjxfjjc\\app\\claude.exe"]},{"action":"sniff"},{"protocol":"dns","ip_cidr":["10.0.0.0/8","172.16.0.0/12","192.168.0.0/16"],"outbound":"direct"},{"action":"hijack-dns","protocol":"dns"}]}}
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/al/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇱 Albania - Tirana
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/am/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇲 Armenia - Yerevan
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/az/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇿 Azerbaijan - Baku
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ba/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇧🇦 Bosnia and Herzegovina - Sarajevo
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/bg/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇧🇬 Bulgaria - Sofia
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ge/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇪 Georgia - Tbilisi
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/hr/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇭🇷 Croatia - Zagreb
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/hu/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇭🇺 Hungary - Budapest
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/md/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇲🇩 Moldova - Chisinau
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/mk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇲🇰 Macedonia - Skopje
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pl/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇱 Poland - Warsaw
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pl/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇱 Poland - Gdansk
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pl/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇱 Poland - Wroclaw
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ro/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇷🇴 Romania - Bucharest
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ro/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇷🇴 Romania - Timisoara
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ro/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇷🇴 Romania - Constanta
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/rs/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇷🇸 Serbia - Belgrade
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/si/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇮 Slovenia - Maribor
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/sk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇰 Slovakia - Bratislava
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/xk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇽🇰 Kosovo - Kosovo
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/dk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇰 Denmark - Albertslund
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/dk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇰 Denmark - Copenhagen
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ee/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇪 Estonia - Tallinn
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fi/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇮 Finland - Helsinki
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fi/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇮 Finland - Lempaala
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fi/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇮 Finland - Turku
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ie/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇪 Ireland - Dublin
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/is/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇸 Iceland - Reykjavik
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/lt/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇱🇹 Lithuania - Vilnius
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/lv/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇱🇻 Latvia - Riga
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/no/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇴 Norway - Oslo
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/no/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇴 Norway - Sandefjord
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/se/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇪 Sweden - Stockholm
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/se/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇪 Sweden - Malmö
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - London
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Swinton
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Manchester
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Coventry
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/at/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇹 Austria - Vienna
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/at/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇹 Austria -  Graz
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/be/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇧🇪 Belgium - Brussels
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Bern
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Zürich
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Geneva
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Lausanne
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cy/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇾 Cyprus - Limassol
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cy/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇾 Cyprus - Nicosia
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cz/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇿 Czech Republic - Prague 1
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cz/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇿 Czech Republic - Prague 2
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Frankfurt
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Nuremberg
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Falkenstein
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Düsseldorf
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/5&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Berlin
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/6&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Limburg
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/7&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Koeln
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/8&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Munich
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/es/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇸 Spain - Madrid
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/es/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇸 Spain - Seville
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/es/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇸 Spain - Logroño
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/es/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇸 Spain - Barcelona
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/es/5&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇪🇸 Spain - Malaga
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Gravelines
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Paris
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Strasbourg
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Roubaix
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/5&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Nice
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/fr/6&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇫🇷 France - Marseille
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/gr/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇷 Greece - Patrai
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/it/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇹 Italy - Palermo
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/it/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇹 Italy - Milan
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/it/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇹 Italy - Florence
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/it/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇹 Italy - Rome
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/lu/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇱🇺 Luxembourg - Luxemburg
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Amsterdam
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Meppel
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Rotterdam
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Naaldwijk
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/5&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Hague
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/6&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Amsterdam 2
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pt/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇹 Portugal - Lisbon
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ae/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇪 United Arab Emirates - Fujairah
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ae/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇪 United Arab Emirates - Dubai
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/bh/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇧🇭 Bahrain - Bahrain
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/il/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇱 Israel - Tel Aviv
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/il/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇱 Israel - Haifa
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kg/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇬 Kyrgyzstan - Bishkek
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇰 Pakistan - Karachi
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇰 Pakistan - Islamabad
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/sa/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇦 Saudi Arabia - Riyadh
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/tr/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇹🇷 Turkey - Istanbul
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/tr/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇹🇷 Turkey - Izmir
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/tr/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇹🇷 Turkey - Ankara
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/tr/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇹🇷 Turkey - Bursa
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uz/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇺🇿 Uzbekistan - Tashkent
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/in/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇳 India - Mumbai
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/in/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇳 India - Delhi NCR
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/in/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇳 India - Bangalore
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kr/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇷 South Korea - Seoul
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/vn/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇻🇳 Vietnam - Hanoi
