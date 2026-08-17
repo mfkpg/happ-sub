@@ -1,0 +1,56 @@
+name: Build subscription
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'   # каждые 6 часов
+  workflow_dispatch:          # ручной запуск
+  push:
+    paths:
+      - params.txt
+      - tunnel-config.json
+      - .github/workflows/build-sub.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream subscription
+        env:
+          SUB_URL: ${{ secrets.SUB_URL }}
+        run: |
+          test -n "$SUB_URL" || { echo "Secret SUB_URL is not set"; exit 1; }
+          curl -fsSL --retry 3 "$SUB_URL" -o upstream.raw
+          # исходник может быть base64 или plaintext — поддерживаем оба
+          if base64 -d upstream.raw > decoded.txt 2>/dev/null && grep -qE '^(vless|vmess|trojan|ss)://' decoded.txt; then
+            mv decoded.txt upstream.txt
+          else
+            cp upstream.raw upstream.txt
+          fi
+          grep -E '^(vless|vmess|trojan|ss)://' upstream.txt > servers.txt
+          test -s servers.txt || { echo "No servers parsed from upstream"; exit 1; }
+          echo "Servers: $(wc -l < servers.txt)"
+
+      - name: Assemble sub.txt
+        run: |
+          {
+            cat params.txt
+            if [ -f tunnel-config.json ]; then
+              printf '#custom-tunnel-config: %s\n' \
+                "$(python3 -c 'import json; print(json.dumps(json.load(open("tunnel-config.json")), separators=(",",":")))')"
+            fi
+            cat servers.txt
+          } > sub.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "happ-sub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add sub.txt
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
+          git commit -m "update subscription $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
