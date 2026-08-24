@@ -88,6 +88,9 @@ vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/il/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇱 Israel - Tel Aviv
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/il/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇮🇱 Israel - Haifa
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kg/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇬 Kyrgyzstan - Bishkek
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kz/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇿 Kazakhstan -  Almaty
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kz/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇿 Kazakhstan -  Astana
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/kz/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇰🇿 Kazakhstan - Quaragandy
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇰 Pakistan - Karachi
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇰 Pakistan - Islamabad
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/sa/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇦 Saudi Arabia - Riyadh
