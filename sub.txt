@@ -38,7 +38,7 @@ vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/se/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇪 Sweden - Stockholm
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/se/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇸🇪 Sweden - Malmö
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - London
-vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Swinton
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Southampton
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Manchester
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/uk/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇬🇧 United Kingdom - Coventry
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/at/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇹 Austria - Vienna
