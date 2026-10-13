@@ -83,6 +83,7 @@ vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Naaldwijk
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/5&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Hague
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/6&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Amsterdam 2
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/nl/7&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇳🇱 Netherlands - Haarlem
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/pt/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇵🇹 Portugal - Lisbon
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ae/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇪 United Arab Emirates - Fujairah
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ae/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇦🇪 United Arab Emirates - Dubai
