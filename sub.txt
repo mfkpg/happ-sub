@@ -49,7 +49,7 @@ vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/3&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Geneva
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/ch/4&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇭 Switzerland - Lausanne
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cy/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇾 Cyprus - Limassol
-vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cy/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇾 Cyprus - Nicosia
+vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cy/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇾 Cyprus - Larnaca
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cz/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇿 Czech Republic - Prague 1
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/cz/2&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇨🇿 Czech Republic - Prague 2
 vless://f225da40-c27f-4625-a7d4-1fcc4608851b@ap2.directly.chat:443?type=ws&path=/de/1&host=ap2.directly.chat&security=tls&sni=ap2.directly.chat&fp=firefox&alpn=http/1.1#🇩🇪 Germany - Frankfurt
